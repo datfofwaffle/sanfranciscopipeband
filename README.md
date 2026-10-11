@@ -14,11 +14,12 @@ A single-page static site (plain HTML and CSS, no build step). It works on GitHu
 
 - **Placeholders.** Search `index.html` for square brackets. These still need real content: Pipe Major and Drum Sergeant names, practice day/time/location, ages and costs, event dates, and the Donate link (`[ADD LINK]`).
 - **Not indexed by search engines.** The `<meta name="robots" content="noindex, nofollow">` line in `<head>` keeps this proof of concept out of Google. Delete that line when the band is ready to go live.
-- **Images.** The three pictures in `assets/` are illustrations, not photos. To use a real photo, drop it in `assets/` and change the matching `src="assets/..."` in `index.html`.
+- **Images.** The hero is a photo (`golden-gate-hero.jpg`, with a 900px copy for phones). The two band cards still use placeholder illustrations. To swap in a real photo, drop it in `assets/` and change the matching `src="assets/..."` in `index.html`.
+- **Photo rights.** Confirm you have permission to use the hero photo, and add a credit in the footer if its license asks for one.
 - **Accent color.** The red is one CSS variable, `--accent`, at the top of the `<style>` block.
 
 ## Files
 
 - `index.html`: the whole page
-- `assets/`: illustrations and favicon
+- `assets/`: hero photo, illustrations and favicon
 - `.nojekyll`: tells GitHub Pages to serve the files as they are
