@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720">
+<defs>
+<pattern id="s" width="14" height="10" patternUnits="userSpaceOnUse">
+<rect x="0" y="0" width="2" height="10" fill="#C0362C"/>
+</pattern>
+<clipPath id="c">
+<path d="M913 175 Q1088 560 1263 175 L1263 478 L913 478 Z"/>
+</clipPath>
+<clipPath id="cl">
+<path d="M913 175 Q720 440 560 478 L913 478 Z"/>
+</clipPath>
+</defs>
+<rect width="1440" height="720" fill="#0F2A43"/>
+<rect y="260" width="1440" height="460" fill="#16405F"/>
+<rect y="380" width="1440" height="340" fill="#25628A"/>
+<circle cx="1010" cy="300" r="130" fill="#F2B27C" opacity="0.9"/>
+<path d="M1090 580 L1230 410 L1330 470 L1440 380 L1440 580 Z" fill="#0A1D30"/>
+<path d="M0 612 L0 545 L170 478 L290 525 L400 492 L520 496 L560 505 Q600 560 660 612 Z" fill="#0A1D30"/>
+<g clip-path="url(#c)"><rect x="913" y="150" width="350" height="340" fill="url(#s)"/></g>
+<g clip-path="url(#cl)"><rect x="560" y="150" width="353" height="340" fill="url(#s)"/></g>
+<path d="M913 175 Q1088 560 1263 175" fill="none" stroke="#C0362C" stroke-width="7"/>
+<path d="M913 175 Q720 440 560 478" fill="none" stroke="#C0362C" stroke-width="7"/>
+<path d="M1263 175 Q1400 430 1440 470" fill="none" stroke="#C0362C" stroke-width="7"/>
+<rect x="900" y="150" width="26" height="460" fill="#C0362C"/>
+<rect x="1250" y="150" width="26" height="460" fill="#C0362C"/>
+<rect x="896" y="200" width="34" height="12" fill="#C0362C"/>
+<rect x="896" y="270" width="34" height="12" fill="#C0362C"/>
+<rect x="896" y="340" width="34" height="12" fill="#C0362C"/>
+<rect x="1246" y="200" width="34" height="12" fill="#C0362C"/>
+<rect x="1246" y="270" width="34" height="12" fill="#C0362C"/>
+<rect x="1246" y="340" width="34" height="12" fill="#C0362C"/>
+<rect x="520" y="476" width="920" height="16" fill="#C0362C"/>
+<rect x="520" y="492" width="920" height="6" fill="#0A1D30"/>
+<path d="M0 560 Q180 520 360 556 T720 548 T1080 556 T1440 540 L1440 720 L0 720 Z" fill="#C2D1DB"/>
+<path d="M0 610 Q220 580 440 612 T880 604 T1440 600 L1440 720 L0 720 Z" fill="#E9EDEF" opacity="0.9"/>
+<path d="M470 522 Q480 504 560 500 Q700 482 880 500 T1180 496 T1420 506 Q1440 520 1400 536 Q1100 552 820 544 T500 540 Q466 536 470 522 Z" fill="#E9EDEF" opacity="0.55"/>
+<path d="M0 668 Q300 648 600 670 T1200 664 T1440 660 L1440 720 L0 720 Z" fill="#F7F6F2"/>
+</svg>
